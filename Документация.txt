@@ -35,3 +35,5 @@ Python Programmable Customizable Calculator (PPCC)
 Рассчёт скидок.
 
 Работа со временем.
+
+Функции в SymPy: https://www.reddit.com/r/learnpython/comments/7zrsb3/is_it_possible_to_destring_an_input_i_want_to/
