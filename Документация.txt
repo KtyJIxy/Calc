@@ -28,12 +28,12 @@ Python Programmable Customizable Calculator (PPCC)
 
 Конвертер. Подхват данных с интернета.
 
-Графики. Нампи?
+Графики. Нампи? Matplotlib?
 
 Поддержка дробей.
 
 Рассчёт скидок.
 
-Работа со временем.
+Работа со временем. Conversions.
 
 Функции в SymPy: https://www.reddit.com/r/learnpython/comments/7zrsb3/is_it_possible_to_destring_an_input_i_want_to/

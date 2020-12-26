@@ -2,10 +2,39 @@
 Главная функция. 
 Создаёт функции-оператора из текста.
 Работает только с внутренними функциями Питона.
+
+Обновлено. Первоначальный концепт заброшен. Воссоздаёт логику базовыъ функций питона.
 """
 
-def func_create(func_name): #Не работает
+"""def func_create(func_name): #Не работает
     return exec(func_name)
 
 if __name__ == "__main__":
-    multi = func_create("__add__") 
+    multi = func_create("__add__") """
+
+#Basic functions, requires two arguments
+def addition(a, b): return a+b
+
+def substraction(a,b): return a-b
+
+def multiplying(a,b): return a*b
+
+def division(a,b): return a/b
+
+#Single argument based functions
+
+def square(a): return a**2
+
+def cube(a): return a**3
+
+def root(a): return a**0.5
+
+def procentify(a): return a/100
+
+#Functions with additional parameters
+
+def raise_to_y_power(a, y): return a**y
+
+#Other functions
+
+input_from_user = input()
