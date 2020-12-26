@@ -1,0 +1,7 @@
+Stage I: Prototyping.
+
+Simple Logics. DONE.
+
+GUI.
+
+Android migration.
