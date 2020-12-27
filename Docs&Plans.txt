@@ -1,0 +1,37 @@
+Python Programmable Customizable Calculator (PPCC)
+
+Small size.
+
+Ad.
+
+ Modules. Plans: CV for photomath. Revers engineering included.
+
+Quick. Compiler analogue?
+
+Serious, but friendly look.
+
+Each button color customization, general pre-gen themes and other.
+
+Tabs for transition between functions.
+
+History with tags, notes and search.
+
+User simple macroses and constants.
+
+Different figures format (2, 10, 16).
+
+User functions on python language.
+
+Showing the result during typing.
+
+Конвертер. Подхват данных с интернета. Converter. Internet data acces.
+
+Charts? NumPy? Matplotlib?
+
+Fraction support.
+
+Discount calculation.
+
+Time functions.
+
+Functions in SymPy: https://www.reddit.com/r/learnpython/comments/7zrsb3/is_it_possible_to_destring_an_input_i_want_to/

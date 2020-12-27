@@ -2,6 +2,12 @@ Stage I: Prototyping.
 
 Simple Logics. DONE.
 
+Command functions.
+
+.gitignore __pycache__.
+
 GUI.
+
+Standalone Application Execution. .pyw?
 
 Android migration.
