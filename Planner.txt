@@ -2,7 +2,7 @@ Stage I: Prototyping.
 
 Simple Logics. DONE.
 
-Command functions.
+Command functions. DONE/In Progress.
 
 .gitignore __pycache__.
 

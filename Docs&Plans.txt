@@ -4,7 +4,7 @@ Small size.
 
 Ad.
 
- Modules. Plans: CV for photomath. Revers engineering included.
+Modules. Plans: CV for photomath. Revers engineering included.
 
 Quick. Compiler analogue?
 
