@@ -1,9 +1,5 @@
 """
-Главная функция. 
-Создаёт функции-оператора из текста.
-Работает только с внутренними функциями Питона.
-
-Обновлено. Первоначальный концепт заброшен. Воссоздаёт логику базовыъ функций питона.
+Basic python calculation logics recreation as stand-alone functions for better customization.
 """
 
 """def func_create(func_name): #Не работает
@@ -36,5 +32,3 @@ def procentify(a): return a/100
 def raise_to_y_power(a, y): return a**y
 
 #Other functions
-
-input_from_user = input()
