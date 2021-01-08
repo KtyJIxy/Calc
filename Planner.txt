@@ -6,7 +6,7 @@ Command functions. DONE/In Progress.
 
 .gitignore __pycache__. DONE.
 
-GUI.
+GUI. In Progress.
 
 Standalone Application Execution. .pyw?
 
