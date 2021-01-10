@@ -16,6 +16,7 @@ ImportError: DLL load failed while importing _window_sdl2
 """
 
 import kivy
+import time # Test purposes
 kivy.require('2.0.0') #! Current is 2.0.0. as of 08/01/2021.
 from kivy.app import App #* Example code below
 from kivy.uix.label import Label
@@ -40,7 +41,10 @@ class Calc(App):
     def build(self):
         #return Label(text='Hello world') #? Example code. Label being root widget application.
         #! import functions_main.py -- GO BACK TO __MainScreen__
+        time.sleep(20)
         return MainScreen()
+        time.sleep(20)
+        
 
 if __name__ == '__main__': #? really neccessary?
     Calc().run()
