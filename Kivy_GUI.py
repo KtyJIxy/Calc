@@ -3,6 +3,8 @@
 """
 
 #? p.37 Basics
+#? p.43 Limiting Kivy
+#? p.51 Touch/buttons
 #? p.115 package for Android
 #? p.unknown CodeInput. Solution to implementing code support at hand!
 #? p.unknown RstDocument - solution to editable PyReader!
