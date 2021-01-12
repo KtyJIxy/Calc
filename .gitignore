@@ -139,4 +139,4 @@ cython_debug/
 
 # MY OWN GITIGNORES
 
-Kivy_test.py/
+/Kivy_test.py
