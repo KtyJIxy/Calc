@@ -9,7 +9,8 @@
 #? p.58 Triggers
 #? p.59 Events. Custom events must be registred in __EventDispatcher__ class. Callback and __*args__
 #? p.60 List of Properties. Declaration at __class__ level with __**kwargs__
-#? p.62 WORKING EXAMPLE
+#? p.74 __Layouts__
+#? p.82 Backgrounds
 #? p.115 package for Android
 #? p.unknown CodeInput. Solution to implementing code support at hand!
 #? p.unknown RstDocument - solution to editable PyReader!
