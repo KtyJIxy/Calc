@@ -5,20 +5,17 @@
 #? p.37 Basics
 #? p.43 Limiting Kivy
 #? p.51 Touch/buttons
+#? p.56 How to avoid death loops
+#? p.58 Triggers
+#? p.59 Events. Custom events must be registred in __EventDispatcher__ class. Callback and __*args__
+#? p.60 List of Properties. Declaration at __class__ level with __**kwargs__
+#? p.62 WORKING EXAMPLE
 #? p.115 package for Android
 #? p.unknown CodeInput. Solution to implementing code support at hand!
 #? p.unknown RstDocument - solution to editable PyReader!
 
-#TODO import from kivy_venv. __Ask__ on FF? 
-#TODO Temporary PYTHONPATH: Consider moving to stable PYTHONPATH locations.
-#TODO Evaluate first kivy-error: 
-"""
-Unable to find any valuable Window provider. Please enable debug logging. 
-ImportError: DLL load failed while importing _window_sdl2
-"""
-
 import kivy
-import time # Test purposes
+import time #* Test purposes
 kivy.require('2.0.0') #! Current is 2.0.0. as of 08/01/2021.
 from kivy.app import App #* Example code below
 from kivy.uix.label import Label
