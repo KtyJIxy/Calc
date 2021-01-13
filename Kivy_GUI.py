@@ -11,6 +11,7 @@
 #? p.60 List of Properties. Declaration at __class__ level with __**kwargs__
 #? p.74 __Layouts__
 #? p.82 Backgrounds
+#? p.97 __KVLANG__
 #? p.115 package for Android
 #? p.unknown CodeInput. Solution to implementing code support at hand!
 #? p.unknown RstDocument - solution to editable PyReader!
