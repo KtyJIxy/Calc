@@ -13,6 +13,7 @@
 #? p.82 Backgrounds
 #? p.97 __KVLANG__
 #? p.115 package for Android
+#? p.129 License. __Maybe__ abolish VSC (stritc licensing)
 #? p.unknown CodeInput. Solution to implementing code support at hand!
 #? p.unknown RstDocument - solution to editable PyReader!
 
