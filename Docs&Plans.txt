@@ -24,7 +24,7 @@ User functions on python language.
 
 Showing the result during typing.
 
-Конвертер. Подхват данных с интернета. Converter. Internet data acces.
+Converter. Internet data acces.
 
 Charts? NumPy? Matplotlib?
 
