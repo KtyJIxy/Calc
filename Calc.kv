@@ -22,5 +22,9 @@
         Button:
             text: "+"
             on_press: fm.addition()
-            # Doesnt' work. Either function has to wait for second input or "+" is just a symbot to be rarsed.
+            #Doesnt' work. Either function has to wait for second input or + is just a symbot to be parsed.
             #TODO: so 2 ways: new func or even new parser.
+            #UPD. New function is not OOP.
+            # 1. Parser. Look 'ast' module and parser-builders. Versatile. Overkill?
+            # 2. Sandbox. Hard. Questionable. Small.
+            # 3. Compromise. 'eval' with several 'ifs'. Symbols just keyboard symbols, i.e. '^' prints '**' or recoded for calculation.
