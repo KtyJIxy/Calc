@@ -30,8 +30,13 @@ from kivy.uix.widget import Widget
 from Calc.functions_main import *
 
 class MainScreen(GridLayout):
-    pass
-        
+    def calculate(self, calculation): 
+        if calculation: 
+            try: 
+                self.display.text = str(eval(calculation)) 
+            except Exception: 
+                self.display.text = "Error"
+
 class CalcApp(App):
     def build(self):
         return MainScreen()

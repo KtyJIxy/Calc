@@ -1,1 +1,0 @@
-app.mainloop() # ? From example. Required to startup tkinter-gui.
