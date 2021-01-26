@@ -27,6 +27,7 @@ from kivy.uix.gridlayout import GridLayout
 from kivy.uix.textinput import TextInput
 from kivy.uix.button import Button
 from kivy.uix.widget import Widget
+
 from Calc.functions_main import *
 
 class MainScreen(GridLayout):

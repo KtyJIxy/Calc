@@ -1,13 +1,13 @@
 #:import fm Calc.functions_main
-#import cm Calc.command
 
 #TODO:
 #1. FailFunctions. Why do they not see the argument on display?
 #2. Function to clear last digit.
 #3. Memorize and Calc.command crashing issue resolvement.
+#4. Reason to crash with 2nd import? Investigate.
 
 <NumbButton@Button>:
-    background_color: "grey"
+    background_color: "lavender"
 
 <BasOpButton@Button>:
     background_color: "cyan"
@@ -16,7 +16,7 @@
     background_color: "black"
 
 <FuncButton@Button>:
-    background_color: "chocolate"
+    background_color: "khaki"
 
 <MainScreen>:
     id: calc_scr
@@ -82,8 +82,11 @@
             text: "."
             on_press: entry.text += self.text 
         FuncButton: 
+            text: "C"
+            on_press: entry.text = entry.text[:-1]
+        FuncButton: 
             text: "AC"
-            on_press: entry.text = "" 
+            on_press: entry.text = ""
         BasOpButton: 
             text: "/"
             on_press: entry.text += self.text 
@@ -91,7 +94,7 @@
         FuncButton: 
             text: "="
             on_press: calc_scr.calculate(entry.text) 
-            background_color: "red"
+            background_color: "orangered"
         FuncButton: 
             text: "("
             on_press: entry.text += self.text 
