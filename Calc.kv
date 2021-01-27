@@ -81,12 +81,12 @@
         FuncButton: 
             text: "."
             on_press: entry.text += self.text 
-        FuncButton: 
-            text: "C"
-            on_press: entry.text = entry.text[:-1]
-        FuncButton: 
-            text: "AC"
-            on_press: entry.text = ""
+        LongpressButton:
+            text: 'C/AC'
+            long_press_time: 1
+            on_press: entry.text = entry.text[:-1] 
+            on_long_press: entry.text = ""
+            background_color: "khaki"
         BasOpButton: 
             text: "/"
             on_press: entry.text += self.text 
