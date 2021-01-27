@@ -2,9 +2,12 @@
 
 #TODO:
 #1. FailFunctions. Why do they not see the argument on display?
-#2. Function to clear last digit.
 #3. Memorize and Calc.command crashing issue resolvement.
 #4. Reason to crash with 2nd import? Investigate.
+#5. Resolve security issues according to one of the next ways.
+#a. Parser. 
+#b. Sandbox. 
+#c. Compromise. 'eval' with several 'ifs'. Symbols just keyboard symbols, i.e. '^' prfloats '**' or recoded for calculation.
 
 <NumbButton@Button>:
     background_color: "lavender"
@@ -42,12 +45,6 @@
         BasOpButton:
             text: "+"
             on_press: entry.text += self.text 
-            #Doesnt' work. Either function has to wait for second input or + is just a symbot to be parsed.
-            #TODO: so 2 ways: new func or even new parser.
-            #UPD. New function is not OOP.
-            # 1. Parser. Look 'ast' module and parser-builders. Versatile. Overkill?
-            # 2. Sandbox. Hard. Questionable. Small.
-            # 3. Compromise. 'eval' with several 'ifs'. Symbols just keyboard symbols, i.e. '^' prints '**' or recoded for calculation.
     BoxLayout: 
         NumbButton: 
             text: "4"
@@ -105,18 +102,18 @@
             text: "^"
             on_press: entry.text += "**" 
     BoxLayout: 
-        FailButton: 
+        BasOpButton: 
             text: "√"
-            on_press: fm.root() 
-        FailButton: 
+            on_press: entry.text = str(fm.sqr_root(float(entry.text)))
+        BasOpButton: 
             text: "%"
-            on_press: fm.procentify()
+            on_press: entry.text = str(fm.procentify(float(entry.text)))
         #FailButton: 
             #text:"M"
             #on_press: cm.memorize()
-        FailButton: 
+        BasOpButton:
             text: "^2"
-            on_press: fm.square()
-        FailButton: 
+            on_press: entry.text = str(fm.square(float(entry.text)))
+        BasOpButton: 
             text: "^3"
-            on_press: fm.cube()
+            on_press: entry.text = str(fm.cube(float(entry.text)))
