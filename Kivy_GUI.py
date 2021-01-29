@@ -63,5 +63,28 @@ class LongpressButton(Factory.Button):
     def on_long_press(self, *largs):
         pass
 
+class Memorize_Button(LongpressButton):
+    #from kivy.uix.behaviors.touchripple import TouchRippleButtonBehavior
+    #from kivy.uix.behaviors.button import ButtonBehavior
+    #!Ensure unneeded and delete in future.
+
+    #def __init__(self, memory=[]):
+        #self.memory = memory
+    memory = None
+    #def on_press:
+    def on_pressed(self, instance, pos):
+        if memory is None:
+            memory = []
+            memory.append(entry.text)
+            #memory = entry.text
+        else:
+            memory.pop()
+        return self.memory
+        #return memory
+    def on_long_press(self, *largs):
+        entry.text = memory
+        #memory.pop()
+
+
 if __name__ == '__main__':
     CalcApp().run()
