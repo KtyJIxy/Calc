@@ -33,6 +33,8 @@ from Calc.functions_main import *
 from kivy.clock import Clock
 from kivy.factory import Factory
 
+import math
+
 class MainScreen(GridLayout):
     def calculate(self, calculation): 
         if calculation: 
@@ -66,7 +68,7 @@ class LongpressButton(Factory.Button):
 class Memorize_Button(LongpressButton):
     #from kivy.uix.behaviors.touchripple import TouchRippleButtonBehavior
     #from kivy.uix.behaviors.button import ButtonBehavior
-    #!Ensure unneeded and delete in future.
+    #!Ensure unneeded and delete in future. Or REWRITE Memory-buttons to use class-based functions.
 
     #def __init__(self, memory=[]):
         #self.memory = memory

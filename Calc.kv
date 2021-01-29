@@ -8,10 +8,11 @@
     #b. Sandbox. 
     #c. Compromise. 'eval' with several 'ifs'. Symbols just keyboard symbols, i.e. '^' prfloats '**' or recoded for calculation.
 #6. Find a better way to keep track of tasks than note here and there.
+    #a. GitHub issues
+    #b. Jira and jira-like.
 #7. Forbid entering more than one pair of operators following. Something like:
     # if entry.text[-1] != self.text: entry.text+=self.text
-#8. Custom root finding. sqrt function and comma for "." button (LongPressButton)
-#9. Change .txt in /directory to .md at least.
+#8. Make it all prettier (parser, symbols of functions)
 
 <NumbButton@Button>:
     background_color: "lavender"
@@ -112,6 +113,13 @@
         BasOpButton: 
             text: "%"
             on_press: entry.text = str(fm.procentify(float(entry.text)))
+        BasOpButton:
+            text: "^2"
+            on_press: entry.text = str(fm.square(float(entry.text)))
+        BasOpButton: 
+            text: "^3"
+            on_press: entry.text = str(fm.cube(float(entry.text)))
+    BoxLayout: 
         #FailButton:
             #text: 'M-s-Save'
             #on_press: fm.set_int(entry.text)
@@ -128,9 +136,9 @@
             #Works perfectly fine, but can remember None/"" which is not an issue for now.
             text: 'MC'
             on_press: fm.set_int(0)
-        BasOpButton:
-            text: "^2"
-            on_press: entry.text = str(fm.square(float(entry.text)))
         BasOpButton: 
-            text: "^3"
-            on_press: entry.text = str(fm.cube(float(entry.text)))
+            text: "x√"
+            on_press: entry.text += "**(1/float("
+        #FuncButton: 
+            #text: ","
+            #on_press: entry.text += self.text 
