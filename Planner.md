@@ -1,16 +1,20 @@
 # Stage I: Prototyping. 
-****- All stages approach. ****
+**All stages approach.**
 
-Simple Logics. DONE. 
+Simple Logics. 
+- [x] DONE. 
 - And redone.
 
-Command functions. DONE/In Progress. 
-- Not really needed. Delete command.py? (Moved in *Archive* for now.)
+Command functions. 
+- [x] DONE/In Progress. 
+- Not really needed. Moved in *Archive* for now.
 
-.gitignore __pycache__. DONE. 
+.gitignore __pycache__. 
+- [x] DONE. 
 - And doing this continues.
 
-GUI. Succesfully In Progress. 
+GUI. 
+- [] Succesfully In Progress. 
 - Kivy not ideal, but cool.
 
 Standalone Application Execution. .pyw? 
