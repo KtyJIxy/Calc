@@ -2,7 +2,7 @@
 Basic python calculation logics recreation as stand-alone functions for better customization.
 """
 
-"""def func_create(func_name): #Не работает
+"""def func_create(func_name): #Doesn't work
     return exec(func_name)
 
 if __name__ == "__main__":

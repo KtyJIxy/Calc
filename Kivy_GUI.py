@@ -36,7 +36,8 @@ from kivy.factory import Factory
 import math
 
 class MainScreen(GridLayout):
-    def calculate(self, calculation): 
+    def calculate(self, calculation):
+        #Courtesy of Geeksforgeeks 
         if calculation: 
             try: 
                 self.display.text = str(eval(calculation)) 
@@ -48,6 +49,7 @@ class CalcApp(App):
         return MainScreen()
 
 class LongpressButton(Factory.Button):
+    #Courtesy of Reddit
     __events__ = ('on_long_press', )
 
     long_press_time = Factory.NumericProperty(1)

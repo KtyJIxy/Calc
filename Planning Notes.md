@@ -44,7 +44,7 @@ Charts? NumPy? Matplotlib?
 - Kivy Garden.
 
 Fraction support. 
-- Decimal implemented, unregulars - how?
+- Decimal implemented, irregular - how?
 
 Discount calculation. 
 - Custom procentify function?
