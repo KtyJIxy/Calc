@@ -11,7 +11,7 @@ Exclamation mark means that task is **NOT** included in Kanban or other organize
 - [x] Command functions.
 - [x] Git basic familiarization & .gitignore 
 - [x] Some GUI. 
-- [] Standalone Application Execution. 
+- [x] Standalone Application Execution. 
 - [] Android migration. 
 
 ## Stage II: Polishing & And making it prettier
