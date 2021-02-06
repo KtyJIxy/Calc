@@ -44,7 +44,7 @@ class MainScreen(GridLayout):
             except Exception: 
                 self.display.text = "Error"
 
-class CalcApp(App):
+class MainApp(App):
     def build(self):
         return MainScreen()
 
@@ -91,4 +91,4 @@ class Memorize_Button(LongpressButton):
 
 
 if __name__ == '__main__':
-    CalcApp().run()
+    MainApp().run()
