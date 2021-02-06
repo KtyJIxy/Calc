@@ -12,7 +12,7 @@ Exclamation mark means that task is **NOT** included in Kanban or other organize
 - [x] Git basic familiarization & .gitignore 
 - [x] Some GUI. 
 - [x] Standalone Application Execution. 
-- [] Android migration. 
+- [?] Android migration. 
 
 ## Stage II: Polishing & And making it prettier
 
