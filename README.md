@@ -23,7 +23,7 @@
     auto-py-to-exe
 4. Use a `PyKalc.spec` as a base file.
 5. Add `Calc.kv` as an additional file and `icon.ico` as icon.
-6. Recommend selecting `--onefile` option.
+6. I recommend selecting `--onefile` option.
 7. Wait.
 8. You will get not an exactly onefile `.EXE`, it has to be in one folder with other required files, especially `Calc.kv`. Size is circa 20 MB plus 10 KB from code files. RAM usage circa 50 MB.
 9. If icon wasn't added, use a [Resource Hacker](http://www.angusj.com/resourcehacker/) for adding it.
@@ -34,6 +34,10 @@
 3. Wait about 15 minutes.
 4. Download an [Artifact](https://docs.github.com/en/actions/managing-workflow-runs/downloading-workflow-artifacts). Size of an `.apk` is circa 15 MB, installed app — 40 MB.
 5. Do some debugging to get it properly starting. Frankly, I'd be happy to do it myself, but Android Studio from Google doesn't like AMD Hardware very very much :anguished:.
+
+### Contributing
+
+Feel free to do whatever you wish with all you see here. Use [Planning Notes](https://github.com/KtyJIxy/Calc/blob/main/Planning%20Notes.md) and [Stage Planner](https://github.com/KtyJIxy/Calc/blob/main/Stage%20Planner.md) for you inspiration.
 
 ### License
 
