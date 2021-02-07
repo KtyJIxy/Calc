@@ -1,6 +1,7 @@
 # PyKalc
 
-![PyKalc NUI](https://raw.githubusercontent.com/KtyJIxy/Calc/main/README.png "Operation left->right: brackets, multiplication, raising to power, subtracting, calculating custom root (rasing to 1/x power)")
+![PyKalc NUI](https://raw.githubusercontent.com/KtyJIxy/Calc/main/README.png "PyKalc UI in work")
+*Operations left->right: brackets, multiplication, raising to power, subtracting, calculating custom root (rasing to 1/x power)*
 
 ### PyKalc is a highly code-customizable simple calculator based on Python and Kivy (hence - the name).
 
