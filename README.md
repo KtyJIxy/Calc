@@ -1,11 +1,11 @@
 # PyKalc
 
-[Place for pic]
+![PyKalc NUI](https://raw.githubusercontent.com/KtyJIxy/Calc/main/README.png "Operation left->right: brackets, multiplication, raising to power, subtracting, calculating custom root (rasing to 1/x power)")
 
-## PyKalc is a highly code-customizable simple calculator based on Python and Kivy (hence - the name).
+### PyKalc is a highly code-customizable simple calculator based on Python and Kivy (hence - the name).
 
 ### List of features:
-- Two options button with different tasks on simple and long press;
+- Two options button with different tasks on simple and long press (see UI above for buttons wit "/");
 - Its functions are using python symbols and not mathematical (so "**" instead of '^');
 - .kv file is very easily customizable, allowing simple functions and instantaneous change of colors ([even by name](https://www.w3.org/TR/SVG11/types.html#ColorKeywords));
 - You can build it to be an .exe or even .apk file.
@@ -32,4 +32,8 @@
 2. Use Build [action](https://docs.github.com/en/actions/learn-github-actions).
 3. Wait about 15 minutes.
 4. Download an [Artifact](https://docs.github.com/en/actions/managing-workflow-runs/downloading-workflow-artifacts). Size of an `.apk` is circa 15 MB, installed app — 40 MB.
-5. Do some debugging to get it properly starting. Frankly, I'd be happy to do it myself, but Android Studio from Google doesn't like AMD Hardware very very much :anguished:
+5. Do some debugging to get it properly starting. Frankly, I'd be happy to do it myself, but Android Studio from Google doesn't like AMD Hardware very very much :anguished:.
+
+### License
+
+*Just free, I guess.*
