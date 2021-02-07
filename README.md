@@ -17,10 +17,10 @@
 1. Download repository (required files - `Kivy_GUI.py`, `Calc.kv`, `functions_main.py`, `PyKalc.spec` and `icon.ico` if you wish.)
 2. Get yourself a [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/). Through command line it will be:
    ```shell
-    pip install auto-py-to-exe```
+    pip install auto-py-to-exe
 3. Launch it:
     ```shell
-    auto-py-to-exe```
+    auto-py-to-exe
 4. Use a `PyKalc.spec` as a base file.
 5. Add `Calc.kv` as an additional file and `icon.ico` as icon.
 6. Recommend selecting `--onefile` option.
