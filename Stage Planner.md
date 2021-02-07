@@ -12,7 +12,7 @@ Exclamation mark means that task is **NOT** included in Kanban or other organize
 - [x] Git basic familiarization & .gitignore 
 - [x] Some GUI. 
 - [x] Standalone Application Execution. 
-- [?] Android migration. 
+- [x] Android migration. *Impossible to debug on AMD hardware.*
 
 ## Stage II: Polishing & And making it prettier
 
@@ -27,18 +27,22 @@ Exclamation mark means that task is **NOT** included in Kanban or other organize
 - ! Pre-build layouts
 
 ## ! Stage III: Enrichment of functions and commercializing 
+
+*Third stage is about bringing PyKalc to a level of a not-so-painfully-shameful Open Source project.*
+
 - Different screens
 - Converter
-- Internet data access (i.e. for currency exchange.) *If rendered needed.*
+- Internet data access (i.e. for currency exchange.) *If needed.*
 - Customization in User Menu
 - User buttons
 - User functions
 - Tags and notes for **History**
 - GUI finalizing
-- AdMob
-- PlayMarket Release
 
-## ! Stage IV: Functions that may never see the light of day due to their complexity
+## ! Stage IV: High complexity features
+
+*Fourth stage is about bringing PyKalc to a level of a decent Open Source project.*
+
 - ML functions
 - Photomath
 - Reverse photo solving

@@ -149,4 +149,4 @@ cython_debug/
 
 /App/*
 
-!buildozer.spec
+!PyKalc.spec

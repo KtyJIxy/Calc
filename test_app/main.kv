@@ -1,4 +1,4 @@
-#:import fm functions_main
+#:import fm Calc.functions_main
 
 <NumbButton@Button>:
     background_color: "lavender"
@@ -6,16 +6,13 @@
 <BasOpButton@Button>:
     background_color: "cyan"
 
-<FailButton@Button>:
-    background_color: "black"
-
 <FuncButton@Button>:
     background_color: "khaki"
 
 <MainScreen>:
     id: calc_scr
     display: entry
-    rows: 10
+    rows: 8
 
     BoxLayout:
         TextInput:
@@ -106,12 +103,6 @@
             text: "^3"
             on_press: entry.text = str(fm.cube(float(entry.text)))
     BoxLayout: 
-        #FailButton:
-            #text: 'M-s-Save'
-            #on_press: fm.set_int(entry.text)
-        #FailButton:
-            #text: 'M-s-Show'
-            #on_press: entry.text = fm.get_int()
         LongpressButton:
             text: "MS/MR"
             on_press: 
@@ -125,6 +116,3 @@
         BasOpButton: 
             text: "x√"
             on_press: entry.text += "**(1/float("
-        #FuncButton: 
-            #text: ","
-            #on_press: entry.text += self.text 

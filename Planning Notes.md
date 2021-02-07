@@ -1,12 +1,10 @@
-# Python Programmable Customizable Calculator (PPCC)
+# PyKalc
+*All possible development ideas and notes to them in one place.*
 
 Small size. 
-- How it goes.
+- Not achievable on Python.
 
-Ad. 
-- Open Source buildable version?
-
-Modules. Plans: CV for photomath. Revers engineering included. 
+Modules. Plans: CV for photomath. Reverse engineering included. 
 - ML.
 
 Quick. Compiler analogue? 
